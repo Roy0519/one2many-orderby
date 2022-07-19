@@ -52,10 +52,10 @@ public class DataBootstrap implements CommandLineRunner {
     Department d = new Department();
     d.setName("Design");
 
-    Person p1 = new Person("Tom");
+    Person p1 = new Person("Roy");
     p1.setDepartment(d);
 
-    Person p2 = new Person("Jack");
+    Person p2 = new Person("Jhon");
     p2.setDepartment(d);
 
     d.getPersons().add(p1);
